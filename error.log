@@ -1,0 +1,60 @@
+[08-Jun-2026 11:59:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function DiviTorqueLite\et_core_is_fb_enabled() in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php:82
+Stack trace:
+#0 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): DiviTorqueLite\AssetsManager->enqueue_builder_scripts('')
+#1 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\script-loader.php(2329): do_action('wp_enqueue_scri...')
+#4 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#5 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(3208): do_action('wp_head')
+#8 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\header.php(24): wp_head()
+#9 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(814): require_once('C:\\Users\\RAQIIS...')
+#10 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(749): load_template('C:\\Users\\RAQIIS...', true, Array)
+#11 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\index.php(14): get_header()
+#13 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template-loader.php(132): include('C:\\Users\\RAQIIS...')
+#14 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-blog-header.php(19): require_once('C:\\Users\\RAQIIS...')
+#15 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\index.php(17): require('C:\\Users\\RAQIIS...')
+#16 {main}
+  thrown in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php on line 82
+[08-Jun-2026 11:59:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function DiviTorqueLite\et_core_is_fb_enabled() in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php:82
+Stack trace:
+#0 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): DiviTorqueLite\AssetsManager->enqueue_builder_scripts('')
+#1 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\script-loader.php(2329): do_action('wp_enqueue_scri...')
+#4 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#5 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(3208): do_action('wp_head')
+#8 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\header.php(24): wp_head()
+#9 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(814): require_once('C:\\Users\\RAQIIS...')
+#10 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(749): load_template('C:\\Users\\RAQIIS...', true, Array)
+#11 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\index.php(14): get_header()
+#13 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template-loader.php(132): include('C:\\Users\\RAQIIS...')
+#14 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-blog-header.php(19): require_once('C:\\Users\\RAQIIS...')
+#15 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\index.php(17): require('C:\\Users\\RAQIIS...')
+#16 {main}
+  thrown in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php on line 82
+[08-Jun-2026 12:00:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function DiviTorqueLite\et_core_is_fb_enabled() in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php:82
+Stack trace:
+#0 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): DiviTorqueLite\AssetsManager->enqueue_builder_scripts('')
+#1 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\script-loader.php(2329): do_action('wp_enqueue_scri...')
+#4 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(341): wp_enqueue_scripts('')
+#5 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(3208): do_action('wp_head')
+#8 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\header.php(24): wp_head()
+#9 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(814): require_once('C:\\Users\\RAQIIS...')
+#10 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template.php(749): load_template('C:\\Users\\RAQIIS...', true, Array)
+#11 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\themes\kadence\index.php(14): get_header()
+#13 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-includes\template-loader.php(132): include('C:\\Users\\RAQIIS...')
+#14 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-blog-header.php(19): require_once('C:\\Users\\RAQIIS...')
+#15 C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\index.php(17): require('C:\\Users\\RAQIIS...')
+#16 {main}
+  thrown in C:\Users\RAQIIS COMPUTERS\Local Sites\mubaarak-digital-agency\app\public\wp-content\plugins\addons-for-divi\includes\assets.php on line 82
